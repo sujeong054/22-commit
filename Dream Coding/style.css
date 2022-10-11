@@ -1,33 +1,7 @@
-
-main{
-    background-color: #F5EFE6;
-    height: 100vh;
-    margin-top:-1rem;
-}
-
-ul{ list-style:none;}
-
-.nav{
-    background-color: #7895B2;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem;
-}
-
-.menu{
-    display:flex;
-    justify-content: space-evenly;
+a {
+    text-decoration: none;
 }
 
 li{
-    display:flex;
-    justify-content: space-evenly;
-    margin : 1rem;
-}
-
-a, .social{
-    display: flex;
-    margin: 5px;
-    text-decoration: none;
+    list-style: none;
 }
