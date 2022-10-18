@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/c9f0ad905f.js" crossorigin="anonymous"></script>
+    <title>Youtube</title>
+</head>
+
+<body>
+
+    <!-- Sementic tag -->
+    <header>
+        <div class="logo">
+            <i class="fab fa-youtube"></i>
+            <span>Youtube</span>
+        </div>
+        <div>
+            <i class="fas fa-search"></i>
+            <i class="fas fa-ellipsis-v"></i>
+        </div>
+    </header>
+
+    <!--Video section
+    유튜브 링크 바로 넣어서 video tag 대신 iframe tag 사용
+    -->
+    <section class="video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/uHKfrz65KSU" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+    </section>
+
+    <!--detail section -->
+    <section class="detail">
+        <ul class="tag">
+            <li>#DreamCoding</li>
+            <li>#CloneCoding</li>
+            <li>#Ellie</li>
+        </ul>
+        <div class="des">
+            <span class="title">클론코딩 유튜브 사이트 따라 만들기(HTML+CSS 연습편, 웹 포트폴리오) | 프론트엔드 개발자 입문편: HTML, CSS, Javascript</span>
+            <button class="btn"><i class="fas fa-caret-down"></i></button>
+        </div>
+        <span>3,289,259 view | 3 month ago</span>
+
+
+        <!--icons section -->
+        <ul class="icons">
+            <li><button><i class="fas fa-thumbs-up"></i><span>1K</span></button></li>
+            <li><button><i class="fas fa-thumbs-down"></i><span>0</span></button></li>
+            <li><button><i class="fas fa-share"></i><span>share</span></button></li>
+            <li><button><i class="fas fa-plus"></i><span>Save</span></button></li>
+            <li><button><i class="fab fa-font-awesome-flag"></i><span>Report</span></button></li>
+        </ul>
+
+        <!--channel section -->
+        <div class="channel">
+            <div class="thum">
+                <img src="https://cdn.pixabay.com/photo/2017/02/20/18/03/cat-2083492__340.jpg">
+                <span>CUTE CAT</span>
+                <span>구독자 63.1만명</span>
+            </div>
+            <button class="sub">subscribe</button>
+        </div>
+    </section>
+
+    <!--more section-->
+    <section class="more">
+        <span>다음 동영상</span>
+        <ul>
+            <li>
+                <img  src="https://cdn.pixabay.com/photo/2017/11/14/13/06/kitty-2948404__340.jpg">
+                <span>The cute cate is coming</span>
+                <span>CUTE CAT</span>
+                <span>76K views</span>
+                <button class="morebtn"><i class="fas fa-ellipsis-v"></i></button>
+            </li>
+            <li>
+                <img  src="https://cdn.pixabay.com/photo/2019/11/08/11/56/kitten-4611189__340.jpg">
+                <span>Why she is so cute?</span>
+                <span>CUTE CAT</span>
+                <span>55K views</span>
+                <button class="morebtn"><i class="fas fa-ellipsis-v"></i></button>
+            </li>
+            <li>
+                <img  src="https://cdn.pixabay.com/photo/2018/07/13/10/20/kittens-3535404__340.jpg">
+                <span>The cuty cats</span>
+                <span>CUTE CAT</span>
+                <span>82K views</span>
+                <button class="morebtn"><i class="fas fa-ellipsis-v"></i></button>
+            </li>
+        </ul>
+    </section>
+
+
+</body>
+
+</html>
+
+
+
+<!-- Sementic tag 사용하기
+    주석달아서 구분하기
+    video tag 가 있음
+    아이콘 button으로 사용
+    menu 위/아래로 border 넣어서 사용하기
+-->
