@@ -43,6 +43,9 @@ header{
     color: var(--white-color);
     display: flex;
     justify-content: space-between;
+    padding: var(--side-padding);
+    position : sticky;
+    top: 0;
 }
 
 .logo i {
@@ -50,5 +53,169 @@ header{
 }
 
 header .t_menu .fas fa-search{
-    margin-right: var(--side-padding)
+    margin-right: var(--side-padding);
+}
+
+.player{
+    width: 900px;
+    height: 500px;   
+    margin: 0 auto;
+    display: block;
+}
+
+.video{
+    position : sticky;
+    top: 0;
+    background-color: var(--black-color);
+}
+
+.tag{
+    display: flex;
+    color: var(--blue-color);
+}
+
+.tag li{
+    margin-right: var(--side-padding);
+}
+
+.detail{
+    padding: var(--side-padding);
+}
+
+ul.tag{
+    margin-bottom: var(--side-padding);
+    font-size: var(--font-small);
+}
+
+.des{
+    display: flex;
+}
+
+.des .title{
+    font-size: var(--font-large);
+}
+
+.title{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+}
+
+button{
+    border : none;
+    outline: none;
+    cursor: pointer;
+    background-color: white;
+}
+
+.views{
+    font-size: var(--font-small);
+    margin-bottom: var(--side-padding);
+    color: var(--gray-light-color);
+}
+
+.icons{
+    display: flex;
+    justify-content: space-around;
+    margin: var(--side-padding);
+}
+
+.icons button{
+    display: flex;
+    flex-direction: column;
+    font-size: var(--font-large);
+}
+
+.icons i {
+    margin: 0 auto;
+    color: var(--gray-light-color); 
+}
+
+.icons button span{
+    display: flex;
+    font-size: var(--font-small);
+    margin-top: var(--side-padding);
+}
+
+.icons button i.active{
+    color: var(--blue-color);  
+}
+
+.channel{
+    border-top: medium dashed green;
+    border-bottom: medium dashed green;
+    display: flex;
+    justify-content: space-between;
+    padding: var(--side-padding);
+}
+
+.pic{
+    width : var(--thum-size);
+    height: var(--thum-size);
+    border-radius : 50%
+    
+}
+
+.thum{
+    display: flex;
+    
+}
+
+.channel .thum .info{
+    display: flex;
+    flex-direction: column;
+    margin-left: var(--side-padding);
+}
+
+.channel .thum .info .sub_num {
+    font-size: var(--font-small);
+}
+
+.sub{
+    text-transform: uppercase;
+    color: var(--red-color);
+    font-weight: bold;
+}
+
+.more{
+    padding : var(--side-padding);
+}
+
+.more .items{
+    display:flex;
+    margin-bottom: var(--side-padding);
+}
+
+.more .items img{
+    flex: 1 1 35%;
+    width: 800px;
+    height:100%;
+}
+
+.more .items .info{
+    flex: 1 1 60%;
+    margin-left: var(--side-padding);
+    flex-direction : column;
+    display: flex;
+}
+
+.more .items .morebtn{
+    flex: 1 1 5%
+}
+
+.more .items .name{
+    color: var(--gray-light-color);
+}
+
+.detailAndmore{
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 768px){
+    .detailAndmore{
+        flex-direction: row;
+        margin: var(--side-padding);
+    }
 }
