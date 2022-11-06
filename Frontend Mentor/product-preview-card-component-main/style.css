@@ -15,7 +15,6 @@
 body{
     background-color : var(--Cream);
     font-family: 'Montserrat', sans-serif;
-
 }
 
 .main{
@@ -23,15 +22,15 @@ body{
     background-color: var(--White);
     border-radius: 15px;
     width: fit-content;
-    height: 700px;
+    height: 650px;
     align-items: center;
     margin: 0 auto;
 }
 
 .img{
-    border-top-left-radius: 30px;
-    border-bottom-left-radius: 30px;
-    height: 700px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    height: 650px;
 }
 
 .des{
@@ -97,7 +96,7 @@ ul{
 button{
     border : none;
     background-color: var(--Dark-cyan);
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 20px ;
     color: white;
     font-size : var(--font-size);
@@ -107,3 +106,8 @@ button{
 .svg{
     margin-right : 8px;
 }
+
+
+
+/* 어쩐지 밑단에 하얀 부분이 좀 보인다 싶었는데 border-radius가 달랐던....ㅎ
+height 650px로 변경*/
